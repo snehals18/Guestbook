@@ -1,0 +1,86 @@
+body {
+    font-family: Arial, sans-serif;
+    background-image: url(feedback.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    height: 535px;
+    width: 1320px;
+    border-radius: 5px;
+    padding: 20px;
+    margin-top: -10px;
+    margin-left: -10px;
+
+}
+
+h1 {
+    text-align: center;
+   text-shadow: #b3aa78;
+   color: #c9b338;
+
+}
+
+#guestbook {
+    max-width: 700px;
+    margin: 0 auto;
+}
+
+#comment-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 2px;
+    
+}
+
+textarea {
+  padding: 10px;
+  margin-bottom: 10px;
+  border-radius: 4px;
+  width: 500px;
+  border: 2px solid;
+  border-color: rgb(70, 62, 62);
+  color: white;
+  background-image: url(feedback.jpg);
+  background-size: cover;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  box-shadow: 5px 5px 5px #2b2a23;
+
+
+}
+
+button {
+    background-color: #030303;
+    color: rgb(247, 247, 235);
+    border-radius: 8px;
+    border: 2px solid;
+    border-color: #c9b338;
+    font-size: 15PX;
+    cursor: pointer;
+    height: 30px;
+    width: 90px;
+    text-align: center;
+
+}
+
+#comments {
+    margin-top: 20px;
+    margin-left: 100px;
+
+
+}
+
+.comment {
+  margin-bottom: 10px;
+  border-radius: 2px;
+  border: 2px solid;
+  width: 500px;
+  border-color: rgb(70, 62, 62);
+  color: rgb(243, 242, 230);
+  background-image: url(feedback.jpg);
+  background-size: cover;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+
+}
